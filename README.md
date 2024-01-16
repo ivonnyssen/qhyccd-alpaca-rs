@@ -47,7 +47,7 @@ The instructions below are for installing from source.
 ##### Install libusb-1.0.0 and build tools
 
 ```bash
-sudo apt-get install -y make cmake build-essential libusb-1.0-0-dev
+sudo apt-get install -y build-essential libusb-1.0-0-dev
 ```
 
 ##### Install QHYCCD SDK
