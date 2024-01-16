@@ -12,6 +12,7 @@ ASCOM Alpaca driver for QHYCCD cameras and filter wheels written in Rust.
 
 - Debian 12 (Bookworm) amd64
 - Ubunutu 22.04.3 LTS arm64 (Raspberry Pi 4)
+- Raspberry Pi OS arm64 (Raspberry Pi 4)
 
 ### Tested Cameras
 
@@ -59,7 +60,17 @@ cd sdk_Arm64_23.09.06/
 sudo sh install.sh
 ```
 
-##### Clone the repository
+### Install via Rust / Cargo
+
+Install Rust and Cargo using [rustup](https://rustup.rs/).
+
+```bash
+cargo install qhyccd-alpaca
+```
+
+### Or build from source
+
+#### Clone the repository
 
 ```bash
 git clone https://github.com/ivonnyssen/qhyccd-alpaca.git
@@ -67,7 +78,7 @@ cd qhyccd-alpaca
 cargo build --release
 ```
 
-##### Run the driver
+### Run the driver
 
 ```bash
 cd target/release
